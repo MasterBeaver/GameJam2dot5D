@@ -1,0 +1,54 @@
+{
+    "name": "Mouse",
+    "maps": [
+        {
+            "name": "Mosue",
+            "id": "e6eeae0b-326a-4cb6-bfd7-8347452172d0",
+            "actions": [
+                {
+                    "name": "MosueClick",
+                    "type": "Button",
+                    "id": "dcb2184c-1915-451f-bc9c-2c6411cdfa3c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "MosuePosition",
+                    "type": "Value",
+                    "id": "038a844b-e88d-41f8-8ae5-beca164fd0e9",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "aeca1e98-fb6f-4883-a105-664fe6a745c8",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MosueClick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e3bac537-eb3f-4370-92fa-e19963774ecf",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MosuePosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
